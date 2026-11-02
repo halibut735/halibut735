@@ -31,6 +31,19 @@ Go and Python microservices for search ad creative workflows, global traffic ser
 
 Backend architecture for operational automation, including state machines for batch task dispatch, reliable message-notification pipelines, and compensation for partially completed workflows. Also helped drive an education product from its initial MVP to commercialization.
 
+## Featured projects
+
+### [fastapi-reliable-integration-lab](https://github.com/halibut735/fastapi-reliable-integration-lab)
+
+Production-grade reliable third-party API integration pattern built with **FastAPI**, **SQLAlchemy (Async)**, and explicit state machines:
+- **DB-enforced idempotency:** Unique constraint on `idempotency_key` prevents duplicate processing and double charges.
+- **Explicit deterministic state machine:** Clear transitions across received, in-progress, retry scheduled, ambiguous, and terminal states.
+- **Controlled fault injection mock:** Simulates upstream timeouts, 429 rate limits with `Retry-After`, and in-flight gateway disconnects.
+- **Reconciliation workflow:** Authoritative partner status queries resolve ambiguous network drops without blind retries.
+- **Bounded async workers & backoff:** Concurrency-limited worker pool with full jitter exponential backoff.
+- **Redacted structured logging:** Automatically masks tokens, Authorization headers, signatures, and synthetic PII.
+- **Docker Compose & automated tests:** Complete test suite verifying failure recovery and edge cases.
+
 ## Current focus
 
-Publishing practical backend and AI engineering demos with runnable quickstarts, automated tests, failure scenarios, and clear limitations. The first planned demo covers reliable third-party API integration with idempotency, bounded retries, reconciliation, and redacted logs.
+Publishing practical backend and AI engineering demos with runnable quickstarts, automated tests, failure scenarios, and clear limitations. Next focus: a bounded-concurrency Go worker pool lab covering context timeouts, race detection, and observability.
