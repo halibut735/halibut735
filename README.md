@@ -1,16 +1,36 @@
-## Hi there 👋
+# Bin Zhang
 
-<!--
-**halibut735/halibut735** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Senior Backend & AI Engineer | Go, Python, FastAPI**
 
-Here are some ideas to get you started:
+I build reliable backend services, API integrations, and AI-enabled workflows. I have 9+ years of engineering experience at ByteDance and Tencent, with a focus on distributed systems, high-concurrency services, and production-ready automation.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Based in Beijing, China. Open to remote backend, API integration, and AI engineering projects.
+
+## What I build
+
+- **Backend systems:** Go and Python microservices, REST APIs, background jobs, and event-driven workflows.
+- **Data and infrastructure:** PostgreSQL, MySQL, Redis, Docker, and cloud deployments.
+- **AI applications:** FastAPI services, LLM integrations, RAG, tool calling, and human-in-the-loop automation.
+- **Reliability work:** Idempotency, rate limiting, retries, failure recovery, observability, and performance debugging.
+
+## How I work
+
+- Start with a clear input, expected output, and acceptance criteria.
+- Use explicit state machines and deterministic workflows where they are simpler than autonomous agents.
+- Design for timeouts, duplicate requests, partial failures, and third-party API limits.
+- Keep secrets and personal data out of logs, and test critical failure paths.
+- Deliver readable code, setup instructions, and practical operational documentation.
+
+## Selected experience
+
+### ByteDance / TikTok — Senior Backend Engineer
+
+Go and Python microservices for search ad creative workflows, global traffic serving, and high-throughput AIGC asset processing. Work includes rate-limit governance, fault tolerance, distributed systems, and automated operations.
+
+### Tencent — Senior Backend Engineer
+
+Backend architecture for operational automation, including state machines for batch task dispatch, reliable message-notification pipelines, and compensation for partially completed workflows. Also helped drive an education product from its initial MVP to commercialization.
+
+## Current focus
+
+Publishing practical backend and AI engineering demos with runnable quickstarts, automated tests, failure scenarios, and clear limitations. The first planned demo covers reliable third-party API integration with idempotency, bounded retries, reconciliation, and redacted logs.
